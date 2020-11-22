@@ -1,7 +1,18 @@
 <html>
   
   
- <div class="head"> <h1>SCOTCLEEN DRYCLEANERS</h1><h3>Edinburgh</h3> </div>
+ <div class="head"> 
+   <div class="hours"> <h3>Opening Times:</h3>
+  <ul>
+    <li>Mon-Fri 8am to 5pm</li>
+    <li>Saturday 8am to 5pm</li>
+  <li>Sunday 8am to 5pm</li>
+  </ul>   </div>
+   <div class="main"><h1>SCOTCLEEN DRYCLEANERS</h1><h3>Edinburgh</h3> </div>
+     <div class="location"> <p>adress<br>email<br>phone number<br>   </div>
+  </div>
+   
+   
    
   <div class="flex">
     <div class="one"> <img src="scleen.jpg"  class="pics">   </div>
@@ -12,15 +23,6 @@
 <body> 
   
   <div class="flex2">
-    
-<div class="times">
-  <h1>Opening Times:</h1>
-  <ul>
-    <li>Mon-Fri 8am to 5pm</li>
-    <li>Saturday 8am to 5pm</li>
-  <li>Sunday 8am to 5pm</li>
-  </ul>
-  </div>
   
   <div class="address">
   <h1>Address:</h1>
@@ -56,11 +58,13 @@
   
 .head {
   background-color:00008b;
+  display:flex;
   color:white;
   text-align:center;
   padding-top:15px;
   padding-bottom:10px;
   margin-bottom:15px;
+  border-bottom:2px solid black;
   }
   
  
@@ -85,6 +89,8 @@
     width:32%:
   }
   
+  
+  
 .pics {
   height:300px;
   width:300px;
@@ -98,7 +104,7 @@
   flex-wrap:wrap;
   }
   
- .times {
+ .prices {
    width:48%;
   }
   
